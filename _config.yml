@@ -1,13 +1,12 @@
 title: Abhinay's Blog # The title of the blog
-author: Abhinay Pasunuri # Your name 
+author: Abhinay Pasunuri # Your name
 email: abhinay.pasunuri088@gmail.com # your email shown in the footer
 url: https://apasunuri.github.io/blog/ # this is your site's root address.
-#description: > # this means to ignore newlines until "show_excerpts:"
-#  A clean and minimalist theme for Jekyll.
-favicon: "./favicon.ico" # set the favicon of the site 
-
+description: > # this means to ignore newlines until "show_excerpts:"
+  Blog.
+favicon: "./favicon.ico" # set the favicon of the site
 show_excerpts: false # set to true to show excerpts on the homepage
-  
+
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
@@ -15,32 +14,32 @@ moving:
   back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
   #social_links:
-    # twitter: 
+  # twitter:
   #  github:
   #  rss: RSS
-    # dribbble: 
+  # dribbble:
   #  facebook:
-    # flickr:   
-    # instagram: 
+  # flickr:
+  # instagram:
   #  linkedin:
-    # pinterest: 
-    # youtube: 
-    # youtube_channel: 
-    # youtube_channel_name: 
-    # telegram: 
-    # googleplus: 
-    # microdotblog: 
-    # reddit: 
+  # pinterest:
+  # youtube:
+  # youtube_channel:
+  # youtube_channel_name:
+  # telegram:
+  # googleplus:
+  # microdotblog:
+  # reddit:
 
-    # Mastodon instances
-    # mastodon:
-    # - username: 
-    #   instance: 
-    # - username: 
-    #   instance: 
+  # Mastodon instances
+  # mastodon:
+  # - username:
+  #   instance:
+  # - username:
+  #   instance:
 
 # Build settings
-theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
 
 plugins:
   - jekyll-feed
