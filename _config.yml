@@ -3,7 +3,7 @@ author: Abhinay Pasunuri # Your name
 email: abhinay.pasunuri088@gmail.com # your email shown in the footer
 url: https://apasunuri.github.io/blog/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  Blog.
+  Blog
 favicon: "./favicon.ico" # set the favicon of the site
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -40,7 +40,7 @@ moving:
 
 # Build settings
 #theme: moving
-theme: huangyz0918/moving
+theme: moving
 
 plugins:
   - jekyll-feed
