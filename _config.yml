@@ -40,8 +40,10 @@ moving:
   #   instance:
 
 # Build settings
+# Uncomment when running locally
 #theme: moving
-theme: moving
+# Uncomment when deploying
+remote_theme: huangyz0918/moving
 
 plugins:
   - jekyll-feed
